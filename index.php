@@ -6,8 +6,8 @@
   <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LittleLink</title>
-  <meta name="description" content="Find us online!">
+  <title>Cătălin Pleșu</title>
+  <meta name="description" content="Pseudo Human, maybe more probably less.">
   <meta name="author" content="Seth Cottle">
 
   <!-- Mobile Specific Metas
@@ -43,7 +43,10 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+ <div id="bg">
+ </div> <!-- end bg -->
+
+  <div class="bg container">
     <div class="row">
       <div class="column" style="margin-top: 10%">
 
@@ -117,10 +120,10 @@
             src="images/icons/telegram.svg" alt="Telegram Logo">Telegram</a>
         <br>
 
-        <!-- <!-1- Instagram -1-> -->
-        <!-- <a class="button button-instagram" href="#" target="_blank" rel="noopener"><img class="icon" -->
-        <!--     src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a> -->
-        <!-- <br> -->
+        <!-- Instagram -->
+        <a class="button button-instagram" href="https://www.instagram.com/_catalinplesu/" target="_blank" rel="noopener"><img class="icon"
+            src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
+        <br>
 
         <!-- <!-1- Facebook -1-> -->
         <!-- <a class="button button-faceb" href="#" target="_blank" rel="noopener"><img class="icon" -->
@@ -132,10 +135,10 @@
         <!--     src="images/icons/messenger.svg" alt="Facebook Messenger Logo">Chat on Messenger</a> -->
         <!-- <br> -->
 
-        <!-- Discord -->
-        <a class="button button-discord" href="https://discord.com/@me" target="_blank" rel="noopener"><img class="icon"
-            src="images/icons/discord.svg" alt="Discord Logo">ctalin#6666</a>
-        <br>
+        <!-- <!-1- Discord -1-> -->
+        <!-- <a class="button button-discord" href="https://discord.com/@me" target="_blank" rel="noopener"><img class="icon" -->
+        <!--     src="images/icons/discord.svg" alt="Discord Logo">ctalin#6666</a> -->
+        <!-- <br> -->
 
         <!-- <!-1- Twitch -1-> -->
         <!-- <a class="button button-twitch" href="#" target="_blank" rel="noopener"><img class="icon" -->
@@ -177,10 +180,10 @@
         <!--     src="images/icons/medium.svg" alt="Medium Logo">Medium</a> -->
         <!-- <br> -->
 
-        <!-- Pinterest -->
-        <a class="button button-pinterest" href="https://www.pinterest.com/Analfabetfunctional/_saved/" target="_blank" rel="noopener"><img class="icon"
-            src="images/icons/pinterest.svg" alt="Pinterest Logo">Follow on Pinterest</a>
-        <br>
+        <!-- <!-1- Pinterest -1-> -->
+        <!-- <a class="button button-pinterest" href="https://www.pinterest.com/Analfabetfunctional/_saved/" target="_blank" rel="noopener"><img class="icon" -->
+        <!--     src="images/icons/pinterest.svg" alt="Pinterest Logo">Follow on Pinterest</a> -->
+        <!-- <br> -->
 
         <!-- <!-1- TikTok -1-> -->
         <!-- <a class="button button-tiktok" href="#" target="_blank" rel="noopener"><img class="icon" -->
@@ -197,10 +200,10 @@
             src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
         <br>
 
-        <!-- Email -->
-        <a class="button button-default" href="#" target="_blank" rel="noopener"><img class="icon"
-            src="images/icons/email.svg" alt="Email Icon">catalinhimself@gmail.com</a>
-        <br>
+        <!-- <!-1- Email -1-> -->
+        <!-- <a class="button button-default" href="#" target="_blank" rel="noopener"><img class="icon" -->
+        <!--     src="images/icons/email.svg" alt="Email Icon">catalinhimself@gmail.com</a> -->
+        <!-- <br> -->
 
         <!-- <!-1- Email Alternative -1-> -->
         <!-- <a class="button button-default" href="#" target="_blank" rel="noopener"><img class="icon" -->
