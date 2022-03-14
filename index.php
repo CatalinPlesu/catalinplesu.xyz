@@ -35,7 +35,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/avatar.png">
+  <link rel="icon" type="image/png" href="images/avatar.jpg">
 
 </head>
 
@@ -168,7 +168,7 @@
         <br>
 
         <!-- Mastodon -->
-        <a class="button button-mastodon" href="#" target="_blank" rel="noopener"><img class="icon"
+        <a class="button button-mastodon" href="https://linuxrocks.online/@catalin" target="_blank" rel="noopener"><img class="icon"
             src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a>
         <br>
 
