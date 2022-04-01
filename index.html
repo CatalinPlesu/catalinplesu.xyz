@@ -121,7 +121,7 @@
         <br>
 
         <!-- Instagram -->
-        <a class="button button-instagram" href="https://www.instagram.com/_catalinplesu/" target="_blank" rel="noopener"><img class="icon"
+        <a class="button button-instagram" href="https://www.instagram.com/catalin__plesu/" target="_blank" rel="noopener"><img class="icon"
             src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
         <br>
 
