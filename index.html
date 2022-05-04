@@ -35,7 +35,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/jpg" href="images/avatar.jpg">
+  <link rel="icon" type="image/jpg" href="images/avatar2.jpg">
 
 </head>
 
@@ -69,7 +69,7 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/avatar.jpg" srcset="images/avatar.jpg 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
+        <img src="images/avatar2.jpg" srcset="images/avatar2.jpg 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
 
         <!-- Title -->
         <h1>Cătălin Pleșu</h1>
