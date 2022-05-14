@@ -1,14 +1,12 @@
 #!/bin/python
 
-from flask import Flask
+from flask import Flask, render_template, url_for, redirect
 from markupsafe import escape
-from flask import render_template
 
 app = Flask(__name__)
 
 links = {
-    "Github": "https://github.com/CatalinPlesu",
-    "Gitlab": "https://gitlab.com/catalinplesu",
+    "Github": "https://github.com/CatalinPlesu", "Gitlab": "https://gitlab.com/catalinplesu",
     "Telegram": "https://t.me/catalinplesu",
     "Reddit": "https://www.reddit.com/user/_katarin",
     "Twitter": "https://twitter.com/catalinplesu",
@@ -24,10 +22,17 @@ profile = {
     "avatar": "avatar2.jpg",
     "author": "Cătălin Pleșu",
     "description_url": "Pseudo Human, maybe more probably less.",
-    "description": "IT Student | Linux User | Anime Enjoyer",
+    "description": "IT Student | Linux User | Anime Enjoyer | Rustacean",
 }
 
 
 @app.route('/')
-def index():
+def home():
     return render_template('index.html', links=links, profile=profile)
+
+@app.route('/<item>')
+def telegram(item):
+    for key in links:
+        if item.lower() == key.lower():
+            return redirect(links[key])
+    return f"No such redirect '<b>{item}</b>'"
