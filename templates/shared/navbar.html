@@ -1,0 +1,14 @@
+<div class="topnav">
+  {% for a in singl["navbar"] %}
+        <a 
+        {% if  request.endpoint == a.lower() or request.endpoint == "/" %}
+            class="active" 
+        {% endif %}
+            {% if a.lower() != "home" %}
+            href="/{{ a.lower() }}"
+            {% else %} 
+            href="/"
+            {% endif %}
+            >{{a}}</a>
+  {% endfor %}
+</div>

@@ -1,9 +1,10 @@
 {% include "shared/header.html" %}
+
 {% include "profile.html" %}
 
-{% for key in links %}
+{% for key in singl["links"] %}
 <!-- {{ key }} -->
-<a class="button button-{{key.lower()}}" href="{{links[key]}}" target="_blank" rel="noopener">
+<a class="button button-{{key.lower()}}" href="{{singl["links"][key]}}" target="_blank" rel="noopener">
     <img class="icon" src="{{url_for('static', filename='images/icons/' + key.lower() + '.svg') }}" alt="{{ key }} Logo">{{ key }}</a>
 <br>
 

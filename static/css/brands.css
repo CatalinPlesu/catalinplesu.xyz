@@ -518,7 +518,8 @@ button:hover,
 /* Eden */
 .button.button-eden {
     color: #000;
-    background-color: #F0B27A;;
+    background-color: #F0B27A;
+    ;
 }
 
 .button.button-eden:hover,
@@ -543,13 +544,22 @@ button:hover,
     left: 0px;
     height: 100vh;
     width: 100%;
-    /* background-color: rgb(235, 211, 201); */
-    background-image: linear-gradient(80deg, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
-    /* background-image: url("../images/background.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-position: center; */
-    /* background-size: cover; */
-    /* opacity: 0.6; */
-
+    /* background-image: linear-gradient(80deg, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%); */
+    background-image: linear-gradient(45deg,
+            #282828 0%,
+            #7c6f64 6.6%,
+            #cc241d 13.2%,
+            #fb4934 19.7%,
+            #98971a 26.4%,
+            #b8bb26 33.0%,
+            #d79921 39.6%,
+            #fabd2f 46.2%,
+            #458588 52.8%,
+            #83a598 59.4%,
+            #b16286 66.0%,
+            #d3869b 72.6%,
+            #689d6a 79.1%,
+            #8ec07c 85.7%,
+            #a89984 92.3%,
+            #fbf1c7 100%);
 }

@@ -1,15 +1,10 @@
- <div id="bg">
- </div> 
-  <div class="bg container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
 
-        <img src="{{ url_for('static', filename='images/' + profile.avatar) }}" srcset="{{ url_for('static', filename='images/' + profile.avatar) }} 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
+        <img src="{{ url_for('static', filename='images/' + singl["profile"].avatar) }}" srcset="{{ url_for('static', filename='images/' + singl["profile"].avatar) }} 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
 
         <!-- Title -->
-        <h1>{{ profile.author }}</h1>
+        <h1>{{ singl["profile"].author }}</h1>
         <!-- Short Bio -->
-        <b>{{ profile.description }}</b>
+        <b>{{ singl["profile"].description }}</b>
         <br>
         <br>
         <br>
