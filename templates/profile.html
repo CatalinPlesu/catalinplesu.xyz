@@ -7,7 +7,7 @@
         <img src="{{ url_for('static', filename='images/' + profile.avatar) }}" srcset="{{ url_for('static', filename='images/' + profile.avatar) }} 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
 
         <!-- Title -->
-        <h1>{{ profile.person }}</h1>
+        <h1>{{ profile.author }}</h1>
         <!-- Short Bio -->
         <b>{{ profile.description }}</b>
         <br>
