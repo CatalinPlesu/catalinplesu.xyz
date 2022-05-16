@@ -27,7 +27,8 @@ singl = {
         "description": "IT Student | Linux User | Anime Enjoyer | Rustacean | GRUVBOX♥️",
     },
 
-    "navbar" : ["Home", "Blog", "Chat", "Contact", "About"],
+    "navbar_left" : ["Home", "Blog", "Chat"],
+    "navbar_right" : ["Contact", "About"],
 }
 
 
