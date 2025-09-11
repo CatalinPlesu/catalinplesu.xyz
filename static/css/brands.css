@@ -538,14 +538,24 @@ button:hover,
     filter: brightness(90%);
 }
 
+
+.button.button-oroboros {
+  color: #000;
+  background-color: #ffd700; /* A vibrant golden color */
+}
+
+.button.button-oroboros:hover,
+.button.button-oroboros:focus {
+  filter: brightness(110%); /* Subtle brightness increase on hover */
+}
+
 #bg {
     position: fixed;
     top: 0px;
     left: 0px;
     height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(80deg, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%); */
-    background-image: linear-gradient(45deg,
+    background: radial-gradient(circle at center,
             #282828 0%,
             #7c6f64 6.6%,
             #cc241d 13.2%,

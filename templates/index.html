@@ -5,7 +5,12 @@
 {% for key in singl["links"] %}
 <!-- {{ key }} -->
 <a class="button button-{{key.lower()}}" href="{{singl["links"][key]}}" target="_blank" rel="noopener">
-    <img class="icon" src="{{url_for('static', filename='images/icons/' + key.lower() + '.svg') }}" alt="{{ key }} Logo">{{ key }}</a>
+	{% if key.lower() == 'oroboros' %}
+	<img class="icon" src="{{ url_for('static', filename='images/icons/' + key.lower() + '.png') }}" alt="{{ key }} Logo"">
+	{% else %}
+		<img class="icon" src="{{ url_for('static', filename='images/icons/' + key.lower() + '.svg') }}" alt="{{ key }} Logo">
+	{% endif %}
+{{ key }}</a>
 <br>
 
 {% endfor %}

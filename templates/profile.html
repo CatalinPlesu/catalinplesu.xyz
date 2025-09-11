@@ -1,10 +1,10 @@
 
-        <img src="{{ url_for('static', filename='images/' + singl["profile"].avatar) }}" srcset="{{ url_for('static', filename='images/' + singl["profile"].avatar) }} 2x" alt="LittleLink Logo" style="border-radius: 50%; width: 100px;">
+<img src="https://www.gravatar.com/avatar/14a21f492187a842c7a6ba017073b7c11e193869f1273692f8d3ab7c24ab0306?s=200" alt="LittleLink Logo" style="border-radius: 30px; width: 100px;">
 
         <!-- Title -->
-        <h1>{{ singl["profile"].author }}</h1>
+        <h1 style="color:#282828">{{ singl["profile"].author }}</h1>
         <!-- Short Bio -->
-        <b>{{ singl["profile"].description }}</b>
+        <b style="color:#282828">{{ singl["profile"].description }}</b>
         <br>
         <br>
         <br>
